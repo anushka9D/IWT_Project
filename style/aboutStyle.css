@@ -1,0 +1,39 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto 4% auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.about-container h1 {
+    color: #333333;
+	text-align: center;
+	font-size: 28px;
+}
+
+
+.about-container h2 {
+    color: #333333;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.about-container h3 {
+    color: #333333;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 1%;
+}
+
+.about-container p {
+    color: #666666;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.about-container a {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+}

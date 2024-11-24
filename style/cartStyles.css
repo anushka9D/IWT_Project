@@ -1,0 +1,321 @@
+/* all website */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Sans-serif;	
+}
+
+body {
+	min-width:500px;
+	background-color: #dcedfc;
+}
+
+/* website header */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 4%;
+}
+
+.header-logo {
+	width: clamp(75px, 10%, 100px);
+	margin-right: 2%;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	min-width: 400px;
+	width: 70%;
+	height: 50px;
+	background-color: #046a8f;
+	border-radius: 40px;
+	margin-right: 2%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.nav-links {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links li {
+	display: inline-block;
+}
+
+.nav-links li a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;	
+}
+
+.nav-links li:hover{
+	color: #ffff;
+	background-color: #061a40;
+	border-radius: 20px;
+	padding-left: 6%;
+	padding-right: 6%;
+	transition: all 0.3s ease;
+}
+
+.header-btns {
+	min-width: 300px; 
+	height: 50px;
+}
+
+.header-btn {	
+	width: 30%;
+	height: 50px;
+	margin-right: 2%;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#btnCart {
+	background-color: #35bfc4;
+}
+
+#btnCart:hover {
+	transition: all 0.3s ease;
+	background-color: #2d72eb;
+}
+
+#btnLog {
+	background-color: #60a8f0;
+}
+
+#btnLog:hover {
+	transition: all 0.3s ease;
+	background-color: #2d72eb;
+}
+
+#btnReg {
+	background-color: #095699;
+}
+
+#btnReg:hover {
+	transition: all 0.3s ease;
+	background-color: #2d72eb;
+}
+
+
+/* website footer */
+.footer {
+	background-color: #003559;
+	padding: 70px 0;
+}
+
+.footer-container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-ul {
+	list-style: none;
+}
+
+.footer-col {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 0 25px;
+	line-height: 1.5;
+}
+
+.footer-logo {
+	width: 60px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #48f4f7;
+	height: 2px;
+	width: 80px;
+}
+
+.footer-col h5{
+	font-size: 18px;
+	color: #ffffff;
+	position: relative;
+}
+
+.footer-col p{
+	font-size: 14px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li {
+	text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	background-color: #2d72eb;
+	padding: 6px 15px 6px 20px;
+	border-radius: 40px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin-right: 10px;
+	text-align:center;
+	line-height: 40px;
+	border-radius: 50px;
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: white;
+}
+
+@media(max-width: 970px){
+	header {
+		display: block;
+	}
+	
+	.header-logo {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90px;
+		margin-bottom: 2%;
+	}
+
+	.header-nav {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2%;
+	}
+	
+	.header-btns {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 50px;
+	}
+	
+	.footer-col {
+		width: 50%;
+		margin-bottom: 50px;
+	}	
+}
+
+@media(max-width: 575px){
+	.footer-col {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+}
+.sample-conetnt {
+	height: 100px;	
+}
+
+.sample-conetnt h2{
+	text-align:center;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+.container {
+	padding-top: 1%;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table, th, td {
+	border: 1px solid #ccc;
+}
+
+.th {
+	background-color: #f5f5f5;
+}
+
+.th, td {
+	padding: 8px;
+	text-align: left;
+}
+
+.tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.btn {
+	padding: 5px 10px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+.btn-danger {
+	background-color: #dc3545;
+	color: white;
+}
+
+.btn-danger:hover {
+	background-color: #b61d28;
+}
+
+
+
+
+
+

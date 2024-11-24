@@ -1,0 +1,103 @@
+
+.supReg-title{
+	text-align:center;
+	font-size: 30px;
+	margin-bottom: 2%;
+	color: #200f80;
+}
+
+.supReg-table {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-bottom: 5%;	
+	border-color: #45538c;
+	border-width: 3px;
+}
+
+.supReg-table-label {
+	width: 18%;
+	padding: 2% 1%;
+}
+
+.supReg-table-input {
+	width: 32%;
+	font-size: 18px;
+	padding: 0.5%;
+}
+
+.supReg-table-label p{
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;
+}
+
+.supReg-table-input select{
+	width:100%;
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;
+	padding: 0.5%;
+}
+
+.supReg-table-input input[type=text]{
+	width:98%;
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;	
+	padding: 0.5%;
+}
+
+.supReg-table-input input[type=email]{
+	width:98%;
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;
+	padding: 0.5%;
+}
+
+.supReg-table-input input[type=password]{
+	width:98%;	
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;
+	padding: 0.5%;
+}
+
+.supReg-table-input input[type=date]{
+	width:60%;
+	font-size: 18px;
+	color: #250eab;
+	font-weight: 500;
+	padding: 0.5%;
+}
+
+.supReg-table-input input[type=submit]{
+	display: inline-block;
+	width: 35%;
+	margin-left: 1.5%;
+	padding: 3%;
+	background-color: #095699;	
+	border: none;
+	border-radius: 50px;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+	background-color: #095699;
+}
+
+.supReg-table-input input[type=submit]:hover {
+	transition: all 0.3s ease;
+	background-color: #2d72eb;
+}
+
+#mobile-error {
+	top: 100%;
+	left: 2px;
+	font-size: 16px;
+	font-weight: 400;
+	color: red;
+	transition: top 0.5s;
+}

@@ -1,0 +1,27 @@
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto 4% auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.terms-container h2 {
+    color: #333333;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.terms-container h3 {
+    color: #333333;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 1%;
+}
+
+.terms-container p {
+    color: #666666;
+	text-align: justify;
+	font-size: 14px;
+}
+

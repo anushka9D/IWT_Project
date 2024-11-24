@@ -1,0 +1,56 @@
+.admin-lec-edit-header{
+    background-color: #046A8F;
+    color: white;
+}
+.admin-edit-table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+body {
+	min-width:500px;
+	background-color: #dcedfc;
+}
+.admin-lec-edit-btn{
+    padding: 4px;
+    background-color: #60A8F0;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    height: 20%;
+}
+
+/*-----learner*/
+
+.admin-lear-edit-header{
+    background-color: #046A8F;
+    color: white;
+}
+
+.admin-lear-edit-btn{
+    padding: 4px;
+    background-color: #60A8F0;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    height: 20%;
+}
+
+
+/*----support----*/
+
+.admin-supp-edit-header{
+    background-color: #046A8F;
+    color: white;
+}
+
+.admin-supp-edit-btn{
+    padding: 4px;
+    background-color: #60A8F0;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    height: 20%;
+}

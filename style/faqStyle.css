@@ -1,0 +1,29 @@
+.faq-container {
+    width: 1000px;
+	height: auto;
+	margin: 0 auto 4% auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.faq-container h2 {
+    color: #333333;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.faq-container h3 {
+    color: #333333;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 1%;
+}
+
+.faq-container p {
+    color: #666666;
+	text-align: justify;
+	font-size: 14px;
+}
